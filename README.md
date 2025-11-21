@@ -50,3 +50,35 @@ Dispositivo: cuda
 Parámetros del modelo: 3,009,027
 Bidireccional: True
 ================================================================================
+
+
+
+
+
+================================================================================
+EVALUACION FINAL RNN
+================================================================================
+
+Accuracy Final: 90.33%
+Mejor Accuracy: 90.34%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    Negativo       0.80      0.84      0.82      7102
+     Neutral       0.93      0.98      0.95     11042
+    Positivo       0.94      0.88      0.91     14450
+
+    accuracy                           0.90     32594
+   macro avg       0.89      0.90      0.89     32594
+weighted avg       0.91      0.90      0.90     32594
+
+
+Grafica: rnn_improved_training.png
+Matriz: rnn_improved_confusion.png
+
+================================================================================
+COMPLETADO
+================================================================================
+Mejor Accuracy: 90.34%
+Tiempo: 9.38 minutos
